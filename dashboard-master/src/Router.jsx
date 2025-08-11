@@ -14,13 +14,13 @@ const Router = () => {
         <Route path="login" element={<Login /> } />
         <Route path="signup" element={<Signup />} />
         <Route path="forgot-password" element={<ForgotPassword />} />
-        <Route path="add-student" element={
+        <Route path="muhib" element={
           <ProtectedRoute>
 <AddStudentComp />
           </ProtectedRoute>
           
           } />
-        <Route path="add-trainer" element={
+        <Route path="haider" element={
           <ProtectedRoute>
 <AddTrainer />
           </ProtectedRoute>

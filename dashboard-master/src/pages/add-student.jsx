@@ -5,14 +5,9 @@ import StudentList from "../components/student-list";
 
 const AddStudentComp = () => {
   return (
-    <Layout>
-      <div className="flex justify-end items-center p-2">
-        <AddStudent />
-      </div>
-      <div className="p-2">
-        <StudentList />
-      </div>
-    </Layout>
+    <div>
+      <h1>hello muhib</h1>
+    </div>
   );
 };
 
