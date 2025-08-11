@@ -2,9 +2,9 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";
 import ForgotPassword from "./pages/ForgotPassword";
-import AddTrainer from "./pages/add-trainer";
+import AddTrainer from "./pages/add-haider";
 import ProtectedRoute from "./protectet-route";
-import AddStudentComp from "./pages/add-student";
+import MuhibComp from "./pages/add-muhib";
 
 const Router = () => {
   return (
@@ -16,7 +16,7 @@ const Router = () => {
         <Route path="forgot-password" element={<ForgotPassword />} />
         <Route path="muhib" element={
           <ProtectedRoute>
-<AddStudentComp />
+<MuhibComp />
           </ProtectedRoute>
           
           } />

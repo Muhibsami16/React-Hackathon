@@ -51,7 +51,7 @@ function Login() {
           if (checkUser?.user?.emailVerified) {
             toast("Login Successfully");
             setUserId(checkUser?.user?.uid);
-            navigate("/add-student");
+            navigate("/muhib");
           } else {
             await sendEmailVerification(auth.currentUser);
             toast("Please verified your email to proceed further");

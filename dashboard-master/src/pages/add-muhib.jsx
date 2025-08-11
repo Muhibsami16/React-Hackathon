@@ -3,7 +3,7 @@ import Layout from "../components/layout/layout";
 import StudentList from "../components/student-list";
 
 
-const AddStudentComp = () => {
+const MuhibComp = () => {
   return (
     <div>
       <h1>hello muhib</h1>
@@ -11,4 +11,4 @@ const AddStudentComp = () => {
   );
 };
 
-export default AddStudentComp;
+export default MuhibComp;
